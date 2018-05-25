@@ -22,7 +22,7 @@ let appStore = createStore(appReducers,window.__REDUX_DEVTOOLS_EXTENSION__ && wi
 ReactDOM.render(
    
     <Provider store = {appStore}>
-        <BrowserRouter>       
+        <BrowserRouter basename="/myShop/">       
             <App />        
         </BrowserRouter>
     </Provider>
