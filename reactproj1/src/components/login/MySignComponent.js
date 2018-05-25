@@ -13,7 +13,7 @@ export default class MySignComponent extends Component{
        // document.querySelector("h3").style.color='red';
     }
     componentDidMount(){        
-        document.querySelector("h3").style.color='red';
+        //document.querySelector("h3").style.color='red';
     }
     sendData = () => {
         this.props.onSignIn(this.refs.uId.value,this.refs.pwd.value)    
